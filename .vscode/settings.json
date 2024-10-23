@@ -54,6 +54,12 @@
     "typeinfo": "cpp",
     "unordered_map": "cpp",
     "variant": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "deque": "cpp",
+    "execution": "cpp",
+    "memory": "cpp",
+    "print": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   }
 }

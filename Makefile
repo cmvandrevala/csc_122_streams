@@ -20,10 +20,11 @@
 6: clean
 	g++ 2_read_from_file.cpp -o 2_read_from_file
 	g++ 6_piping_sink.cpp -o 6_piping_sink
+	./2_read_from_file | ./6_piping_sink
 
 7: clean
-	g++ 7_server.cpp -o 7_server
-	g++ 7_client.cpp -o 7_client
+	g++ --std=c++23 7_server.cpp -o 7_server
+	g++ --std=c++23 7_client.cpp -o 7_client
 
 8: clean
 	g++ 8_string_stream.cpp -o 8_string_stream
