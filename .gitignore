@@ -3,8 +3,8 @@
 3_write_to_file
 4_tsv_to_csv
 5_argc_and_argv
-6_client
-7_piping_sink
+6_piping_sink
+7_client
 7_server
 8_string_stream
 data/converted_video_games.csv
