@@ -1,25 +1,32 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+
 using namespace std;
 
 int countWords(string str)
 {
-  stringstream s(str);
+  stringstream ss(str);
 
   string word;
 
   int count = 0;
-  while (s >> word)
+  while (ss >> word)
+  {
     count++;
+  }
   return count;
 }
 
 int main()
 {
-  string s = "geeks for geeks geeks contribution placements";
+  string sentence;
+  cout << endl
+       << "Enter a sentence!"
+       << endl;
+  getline(cin, sentence);
   cout << " Number of words are: "
-       << countWords(s)
+       << countWords(sentence)
        << endl;
   return 0;
 }
