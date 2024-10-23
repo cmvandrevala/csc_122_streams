@@ -40,3 +40,5 @@ clean:
 	@rm -rf 7_server
 	@rm -rf 7_client
 	@rm -rf 8_string_stream
+	@rm data/converted_video_games.csv
+	@rm data/grocery_list.txt
