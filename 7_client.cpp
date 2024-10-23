@@ -6,6 +6,13 @@
 
 int main(int argc, char **argv)
 {
+  if (argc == 1)
+  {
+    std::cout << "The only argument to the program is the name of the program." << std::endl;
+    std::cout << "You need to include arguments to the client program for the server to receive." << std::endl;
+    return 1;
+  }
+
   // creating socket
   int clientSocket = socket(AF_INET, SOCK_STREAM, 0);
 
