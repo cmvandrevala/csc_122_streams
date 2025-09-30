@@ -1,12 +1,57 @@
-1_read_from_console
-2_read_from_file
-3_write_to_file
-4_tsv_to_csv
-5_argc_and_argv
-6_piping_sink
-7_client
-7_server
-8_string_stream
-data/converted_video_games.csv
-data/grocery_list.txt
-output.txt
+# Created by https://www.toptal.com/developers/gitignore/api/c++,cmake
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,cmake
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+# External projects
+*-prefix/
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,cmake
+
+build
