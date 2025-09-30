@@ -1,6 +1,6 @@
-# Standard Template Library
+# Streams
 
-This repository goes over some of the data structures that you can find in the C++ standard template libary. It is definitely not an all-inclusive list!
+This repository goes over a variety of uses of streams in C++.
 
 ## Building Executables With CMake Via the Terminal
 
