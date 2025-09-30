@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
   ofstream f;
-  f.open("data/grocery_list.txt");
+  f.open("../data/grocery_list.txt");
 
   string grocery_list[] = {"Eggs",
                            "Milk",

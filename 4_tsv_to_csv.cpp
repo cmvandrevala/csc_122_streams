@@ -7,8 +7,8 @@ int main()
 {
   ifstream tsvFile;
   ofstream csvFile;
-  tsvFile.open("data/video_games.tsv");
-  csvFile.open("data/converted_video_games.csv");
+  tsvFile.open("../data/board_games.tsv");
+  csvFile.open("../data/converted_board_games.csv");
 
   if (tsvFile.is_open())
   {

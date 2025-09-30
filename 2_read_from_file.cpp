@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
   ifstream f;
-  f.open("data/gettysburg_address.txt");
+  f.open("../data/gettysburg_address.txt");
 
   if (f.is_open())
   {

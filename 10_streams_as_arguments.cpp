@@ -42,8 +42,8 @@ int main()
 {
   SalesData salesData;
 
-  ifstream salesDataFile("data/book_data.txt");
-  ofstream outfile("./output.txt");
+  ifstream salesDataFile("../data/book_data.txt");
+  ofstream outfile("../output.txt");
 
   // We can use these interchangeably!
 
